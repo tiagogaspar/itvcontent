@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FrAMCiTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="version">Versão:</string>
+    <string name="welcome">Bem vindo!</string>
+    <string name="next_button">Continuar ></string>
+    <string name="elapsed_time">Tempo decorrido:</string>
+    <string name="title_activity_idle">iTVContent</string>
+    <string name="wait">Aguarde o próximo conteúdo...</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="action_config">Configurações</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="settings_host">Servidor</string>
+    <string name="settings_tcp">tcp://</string>
+    <string name="settings_port">Porta</string>
+    <string name="settings_topic">Topico</string>
+    <string name="settings_user_name">Nome</string>
+    <string name="settings_password">Senha</string>
+    <string name="settings_save">Salvar</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_sync">SyncActivity</string>
+    <string name="wait_sync">Aguardando sincronização inicial...</string>
+    <string name="title_activity_audio">AudioActivity</string>
+
+</resources>

@@ -1,0 +1,243 @@
+{
+    "AnnotationProject": {
+        "annotations": [
+            {
+                "Annotation": {
+                    "annotation_time": "00:00:03", 
+                    "description": "Anota\u00e7\u00e3o", 
+                    "id": 2, 
+                    "interaction": {
+                        "ShowContent": {
+                            "allow_end_content": true, 
+                            "compulsory": true, 
+                            "contents": [
+                                {
+                                    "Media": {
+                                        "bondaries": {
+                                            "Boundaries": {
+                                                "height": 150, 
+                                                "left": 316, 
+                                                "screen_height": 394, 
+                                                "screen_width": 700, 
+                                                "top": 166, 
+                                                "width": 200
+                                            }
+                                        }, 
+                                        "duration": 5, 
+                                        "filename": "/home/caioviel/AnnotationProjects/meuProjeto/medias/play.png", 
+                                        "url": "http://www.nanoincub.com.br/artigos/wp-content/uploads/2013/10/google-android-mascot.jpg", 
+                                        "id": "google-android-mascot.jpg", 
+                                        "showtime": 3, 
+                                        "type": "IMAGE"
+                                    }
+                                }
+                            ], 
+                            "icon": {
+                                "Icon": {
+                                    "bondaries": {
+                                        "Boundaries": {
+                                            "height": 30, 
+                                            "left": 10, 
+                                            "screen_height": 191, 
+                                            "screen_width": 341, 
+                                            "top": 10, 
+                                            "width": 30
+                                        }
+                                    }, 
+                                    "duration_time": 5, 
+                                    "image": "INFO", 
+                                    "position": "TOP_LEFT", 
+                                    "relative_time": 5
+                                }
+                            }, 
+                            "interaction_type": "SHOW_CONTENT", 
+                            "interactive": false, 
+                            "mobile": true, 
+                            "pause_main_video": false, 
+                            "sound_alert": "/home/caioviel/AnnotationProjects/meuProjeto/medias/dragon's dogma - ost 1 (main theme).mp3", 
+                            "tv": true, 
+                            "viber_alert": true
+                        }
+                    }
+                }
+            }, 
+            {
+                "Annotation": {
+                    "annotation_time": "00:00:05", 
+                    "description": "anota\u00e7\u00e3o 2", 
+                    "id": 3, 
+                    "interaction": {
+                        "ShowContent": {
+                            "allow_end_content": true, 
+                            "compulsory": false, 
+                            "contents": [
+                                {
+                                    "Media": {
+                                        "duration": 7, 
+                                        "url": "http://www.nanoincub.com.br/artigos/wp-content/uploads/2013/10/google-android-mascot.jpg", 
+                                        "filename": "/home/caioviel/AnnotationProjects/meuProjeto/medias/dragon's dogma - ost 1 (main theme)2.mp3", 
+                                        "id": "dragon's dogma - ost 1 (main theme).mp3", 
+                                        "main_video_volume": 50, 
+                                        "media_volume": 100, 
+                                        "showtime": 5, 
+                                        "type": "AUDIO"
+                                    }
+                                }, 
+                                {
+                                    "Media": {
+                                        "bondaries": {
+                                            "Boundaries": {
+                                                "height": 150, 
+                                                "left": 383, 
+                                                "screen_height": 394, 
+                                                "screen_width": 700, 
+                                                "top": 146, 
+                                                "width": 200
+                                            }
+                                        }, 
+                                        "duration": 3, 
+                                        "url": "http://www.nanoincub.com.br/artigos/wp-content/uploads/2013/10/google-android-mascot.jpg", 
+                                        "filename": "/home/caioviel/AnnotationProjects/meuProjeto/medias/play2.png", 
+                                        "id": "play.png", 
+                                        "showtime": 7, 
+                                        "type": "IMAGE"
+                                    }
+                                }
+                            ], 
+                            "icon": {
+                                "Icon": {
+                                    "bondaries": {
+                                        "Boundaries": {
+                                            "height": 30, 
+                                            "left": 10, 
+                                            "screen_height": 191, 
+                                            "screen_width": 341, 
+                                            "top": 10, 
+                                            "width": 30
+                                        }
+                                    }, 
+                                    "duration_time": 5, 
+                                    "image": "YES", 
+                                    "position": "TOP_LEFT", 
+                                    "relative_time": 5
+                                }
+                            }, 
+                            "interaction_type": "SKIP", 
+                            "interactive": true, 
+                            "mobile": true, 
+                            "pause_main_video": true, 
+                            "skip_point": 10, 
+                            "tv": true, 
+                            "viber_alert": true
+                        }
+                    }
+                }
+            }, 
+            {
+                "Annotation": {
+                    "annotation_time": "00:00:07", 
+                    "description": "anota\u00e7\u00e3o 3", 
+                    "id": 4, 
+                    "interaction": {
+                        "ShowContent": {
+                            "allow_end_content": true, 
+                            "compulsory": false, 
+                            "contents": [
+                                {
+                                    "Media": {
+                                        "bondaries": {
+                                            "Boundaries": {
+                                                "height": 150, 
+                                                "left": 310, 
+                                                "screen_height": 394, 
+                                                "screen_width": 700, 
+                                                "top": 165, 
+                                                "width": 200
+                                            }
+                                        }, 
+                                        "duration": -7,
+                                        "url": "http://192.168.98.138:80/project/medias/4 Howard Wolowitz.ogg",  
+                                        "filename": "/home/caioviel/AnnotationProjects/meuProjeto/medias/teste.avi", 
+                                        "id": "teste.avi", 
+                                        "main_video_volume": 90, 
+                                        "media_volume": 50, 
+                                        "showtime": 7, 
+                                        "type": "VIDEO"
+                                    }
+                                }, 
+                                {
+                                    "Media": {
+                                        "alignment": "ALIGN_CENTER", 
+                                        "bg_color": [
+                                            0, 
+                                            0, 
+                                            0, 
+                                            255
+                                        ], 
+                                        "bg_transparency": false, 
+                                        "bold": false, 
+                                        "bondaries": {
+                                            "Boundaries": {
+                                                "height": 50, 
+                                                "left": 0, 
+                                                "screen_height": 394, 
+                                                "screen_width": 700, 
+                                                "top": 324, 
+                                                "width": 721
+                                            }
+                                        }, 
+                                        "duration": 8, 
+                                        "filename": "/home/caioviel/AnnotationProjects/meuProjeto/medias/e0ed0228-064e-4bc5-a53f-435aa9275cbf.jpg", 
+                                        "font": "Ubuntu", 
+                                        "fontSize": 20, 
+                                        "font_color": [
+                                            255, 
+                                            255, 
+                                            0, 
+                                            255
+                                        ], 
+                                        "id": "readme.txt", 
+                                        "italic": false, 
+                                        "showtime": 7, 
+                                        "text": "Meu texto", 
+                                        "url" : "http://wordpress.org/plugins/about/readme.txt",
+                                        "type": "TEXT", 
+                                        "underlined": false
+                                    }
+                                }
+                            ], 
+                            "icon": {
+                                "Icon": {
+                                    "bondaries": {
+                                        "Boundaries": {
+                                            "height": 30, 
+                                            "left": 10, 
+                                            "screen_height": 191, 
+                                            "screen_width": 341, 
+                                            "top": 10, 
+                                            "width": 30
+                                        }
+                                    }, 
+                                    "duration_time": 5, 
+                                    "image": "INFO", 
+                                    "position": "TOP_LEFT", 
+                                    "relative_time": 5
+                                }
+                            }, 
+                            "interaction_type": "SHOW_CONTENT", 
+                            "interactive": false, 
+                            "mobile": false, 
+                            "pause_main_video": false, 
+                            "tv": true, 
+                            "viber_alert": false
+                        }
+                    }
+                }
+            }
+        ], 
+        "description": "exemplo", 
+        "id": "meuProjeto", 
+        "main_media": "/home/caioviel/AnnotationProjects/meuProjeto/medias/MA.mp4", 
+        "name": "exemplo"
+    }
+}

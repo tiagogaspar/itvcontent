@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.dc.ufscar.lince.itvcontent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:name="br.dc.ufscar.lince.itvcontent.iTVContentApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Base.AppCompat.Light" >
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.IdleActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_idle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.TextActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_text"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.SettingsActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.ImageActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_image"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.VideoActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_video"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.SyncActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_sync"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.dc.ufscar.lince.itvcontent.AudioActivity"
+            android:label="@string/title_activity_audio" >
+        </activity>
+    </application>
+
+</manifest>
